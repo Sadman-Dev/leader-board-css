@@ -1,0 +1,25 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top players and blogs start */
+
+.players
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player
+{
+    display: flex;
+    margin-bottom: 19px;
+}
+
+.player img 
+{
+    width: 56px;
+    height: 56px;
+    margin-right: 2em;
+}
