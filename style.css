@@ -1,8 +1,20 @@
+
+/* Common Styles */
 body
 {
     font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
 }
-
+main
+{
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    background: #fff;
+    width: 870px;
+}
 /* top players and blogs start */
 
 .players
@@ -15,6 +27,7 @@ body
 {
     display: flex;
     margin-bottom: 19px;
+    align-items: center;
 }
 
 .player img 
